@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Peliculas Populares - Ricardo Diaz</title>
+
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/popular.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap" rel="stylesheet"> 
+
+    <script type="text/javascript" src="./js/jquery.min.js"></script>
+    <script src="https://unpkg.com/@popperjs/core@2"></script>
+    <script type="text/javascript" src="./js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/60c519fcf8.js" crossorigin="anonymous"></script> 
+    <script type="text/javascript" src="./js/popular.js"></script>
+</head>
+<body id="popular">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="./index.html">
+                <img src="./img/logo-movies.png" width="30" height="30" alt="Peliculas" />
+            </a>
+            <div class="collapse navbar-collapse">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a  class="nav-link" href="./index.html">Inicio</a> 
+                    </li>
+                    <li class="nav-item">
+                        <a  class="nav-link" href="./now-playing.html">Ultimos Lanzamientos</a> 
+                    </li>
+                    <li class="nav-item active">
+                        <a  class="nav-link" href="./popular.html">Populares</a> 
+                    </li>
+                    <li class="nav-item">
+                        <a  class="nav-link" href="./search.html">Buscador</a> 
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+   
+    <div class="container mt-5">
+        <h1 class="text-center mb-5" id="title">Películas Populares</h1>
+        <div class="row list-cards"></div>
+        <nav aria-label="navigation" class="navigation mt-5"></nav>
+    </div>
+
+
+</body>
+</html>

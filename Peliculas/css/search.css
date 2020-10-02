@@ -1,0 +1,15 @@
+#search #search-movie{
+    margin-bottom: 40px;
+}
+
+#search .custom-card{
+    padding: 20px;
+}
+
+#search #title{
+    font-family: 'Lato', sans-serif;
+}
+
+#search .custom-card img {
+    height: 100%;
+}
